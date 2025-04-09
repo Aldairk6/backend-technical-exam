@@ -1,0 +1,14 @@
+api:
+  identifier: "backend-encomerce"
+  port: 5000
+
+logger:
+  options:
+    level: trace
+
+mongodb:
+  url: "mongodb://localhost:27017"
+  database: "examenTecnico"
+  options:
+    useUnifielTopology: true
+    useNewUrlParser: true
